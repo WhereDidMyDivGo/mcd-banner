@@ -1,0 +1,83 @@
+[33mcommit ea3f2722e147d2afe3f1b4b41706bfbef2837a12[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: ahmad <72674221+WhereDidMyDivGo@users.noreply.github.com>
+Date:   Thu Sep 11 14:21:47 2025 +0400
+
+    FINAL
+
+[33mcommit 360038ad00be5ecc8e710f717fb08df3b7130891[m
+Author: ahmad <72674221+WhereDidMyDivGo@users.noreply.github.com>
+Date:   Thu Sep 11 14:14:27 2025 +0400
+
+    feat: restructure code layout, add new images and animations
+
+[33mcommit 00cf09a3c5f1010272ecfcfe9b534e0e17a4a1e3[m
+Author: ahmad <72674221+WhereDidMyDivGo@users.noreply.github.com>
+Date:   Thu Sep 11 13:36:44 2025 +0400
+
+    fix: z-index & opacity, add outro circles w/ animations
+
+[33mcommit 2911f66d8caff632af8b2d3fe642495e76434244[m
+Author: ahmad <72674221+WhereDidMyDivGo@users.noreply.github.com>
+Date:   Thu Sep 11 01:03:42 2025 +0400
+
+    feat: update images and add animation for new 'stroerer' element
+
+[33mcommit 6cc68bd4ef4065f713de93ad1c16d15cb7b7755b[m
+Author: ahmad <72674221+WhereDidMyDivGo@users.noreply.github.com>
+Date:   Thu Sep 11 00:22:51 2025 +0400
+
+    feat: add x + mce imgs w/ rotateIn and rotateScaleIn anims
+
+[33mcommit cc84f4c04b86b52c1ed636e85d789f3ba71b642c[m
+Author: ahmad <72674221+WhereDidMyDivGo@users.noreply.github.com>
+Date:   Wed Sep 10 21:41:57 2025 +0400
+
+    feat: add support for txt-2 animations and update CSS for visibility
+    
+    feat: add optional startAt parameter for out animations to control exact trigger timing in cycle
+
+[33mcommit 73108889dee5b9dc6aaa828a73ada98c53a9f898[m
+Author: ahmad <72674221+WhereDidMyDivGo@users.noreply.github.com>
+Date:   Wed Sep 10 20:19:47 2025 +0400
+
+    feat: add custom easing support to animate fn and clean up sorting
+    
+    add: include new text image and enhance animation functions for improved effects
+
+[33mcommit b01e94bae48e6b64aabd4ea0b63b1b52efa8ef9e[m
+Author: ahmad <72674221+WhereDidMyDivGo@users.noreply.github.com>
+Date:   Wed Sep 10 19:06:22 2025 +0400
+
+    fix: prevent animation overwrite on 3rd loop,
+
+[33mcommit 2cc2f590683e6c9b3afb3756af3c9b4abec8c778[m
+Author: ahmad <72674221+WhereDidMyDivGo@users.noreply.github.com>
+Date:   Wed Sep 10 18:56:15 2025 +0400
+
+    refactor: enhance animate function to support multiple animations and improve structure
+    style: update CSS for burger positioning and add slideRight animation
+    fix: ensure proper overflow handling in banner layout
+
+[33mcommit d632c331f324bb9a2d568a72469433f7865424cc[m
+Author: ahmad <72674221+WhereDidMyDivGo@users.noreply.github.com>
+Date:   Wed Sep 10 15:42:52 2025 +0400
+
+    cleanup: remove unnecessary files
+
+[33mcommit 7ebbfcb7c90ff4fc1cd099ad7f7ca194acdad21f[m
+Author: ahmad <72674221+WhereDidMyDivGo@users.noreply.github.com>
+Date:   Wed Sep 10 15:33:56 2025 +0400
+
+    add generic looped animate() fn for any in/out animations with start delay, stay, and reset per 12.5s cycle
+
+[33mcommit 21a7115a34a67ac70834aa5ff0cd171d2b861c2d[m
+Author: ahmad <72674221+WhereDidMyDivGo@users.noreply.github.com>
+Date:   Tue Sep 9 22:40:21 2025 +0400
+
+    add extracted frames from ref vid 40fps, 25ms each
+
+[33mcommit afc16bda973d05dd14132a3fc4b48fe7caf70478[m
+Author: Luka Budagov <106598468+budagovi@users.noreply.github.com>
+Date:   Tue Sep 9 19:05:17 2025 +0400
+
+    Initial commit

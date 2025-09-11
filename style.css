@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  main {
+    background: #932122;
+    width: 500px;
+    height: 1000px;
+    position: relative;
+    overflow: hidden;
+
+    .banner {
+      width: 100%;
+      height: 100%;
+      background: url("img/background.jpg") center/cover;
+      opacity: 0;
+
+      img {
+        opacity: 0;
+        position: absolute;
+      }
+
+      .claim {
+        z-index: 5;
+      }
+
+      .logo {
+        z-index: 4;
+      }
+
+      .burger {
+        z-index: 2;
+        left: calc(50% - 6px);
+        top: calc(50% + 4px);
+        height: 1045px;
+      }
+
+      .x {
+        z-index: 1;
+        top: 49px;
+        left: 136px;
+        transform: rotate(90deg);
+      }
+
+      .mce {
+        top: 79px;
+        transform-origin: 218.5px center;
+      }
+
+      .stroerer {
+        z-index: 3;
+        top: 235px;
+        left: 38px;
+      }
+
+      div {
+        position: absolute;
+        inset: 50%;
+        transform: translate(-50%, -50%);
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+      }
+
+      .circle-1 {
+        z-index: 1;
+        background: rgba(147, 33, 35, 0.5);
+      }
+
+      .circle-2 {
+        z-index: 1;
+        background: rgba(147, 33, 35);
+      }
+
+      .circle-3 {
+        z-index: 4;
+      }
+
+      .circle-4 {
+        z-index: 4;
+        background: rgba(147, 33, 35);
+      }
+
+      .big-logo {
+        z-index: 5;
+        inset: 50%;
+        top: 37%;
+        transform: translate(-50%, -50%);
+        width: 65%;
+      }
+
+      .mcextreme {
+        z-index: 5;
+        top: 49%;
+        left: 8%;
+        width: 76%;
+        transform: rotate(4deg);
+      }
+    }
+  }
+}
+
+/* ################# keyframes ################# */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translate(-65%, -50%);
+  }
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes wipeRight {
+  0% {
+    clip-path: inset(0 100% 0 0);
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+    opacity: 1;
+  }
+}
+
+@keyframes rotateIn {
+  0% {
+    transform: rotate(90deg) scale(0);
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes rotateScaleIn {
+  0% {
+    transform: scaleX(0.05);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
+@keyframes popIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  70% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes expand2 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 1100px;
+  }
+}
+
+@keyframes expandHole {
+  0% {
+    border: 0px solid rgba(147, 33, 35, 0.5);
+  }
+  100% {
+    border: 250px solid rgba(147, 33, 35, 0.5);
+  }
+}
+
+@keyframes expand {
+  0% {
+    width: 400px;
+  }
+  100% {
+    width: 2000px;
+  }
+}
+
+@keyframes wipeDown {
+  0% {
+    clip-path: inset(0 0 100% 0);
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+    opacity: 1;
+  }
+}
